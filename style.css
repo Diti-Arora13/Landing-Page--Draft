@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*                 GLOBAL PROPERTIES               */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2F6FF;
+}
+ 
+/* colorful bg section */
+
+.colorful-bg-section{
+    width: 100vw;
+    height: 97vh;
+    background: url(./images/colorful-bg.png);
+}
+ 
+            /* white wave */
+
+            .custom-shape-divider-bottom-1615748079 {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                overflow: hidden;
+                line-height: 0;
+                transform: rotate(180deg);
+            }
+            
+            .custom-shape-divider-bottom-1615748079 svg {
+                position: relative;
+                display: block;
+                width: calc(163% + 1.3px);
+                height: 316px;
+                transform: rotateY(180deg);
+            }
+            
+            .custom-shape-divider-bottom-1615748079 .shape-fill {
+                fill: #F2F6FF;
+            }
+
+
+                    /* white wave ends here */
+
+
+                   
+         /* NAV BAR */
+ 
+ .logo{
+    margin-top: 70px;
+    margin-left: 236px;
+    width: 48px;
+    height: 53px;
+ }
+
+ ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: -50px;
+ }
+
+ li{
+    margin-right: 100px;
+    font-size: 17px;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    list-style: none;
+ }
+
+.sign-up-button{
+    background: #F44E77;
+    width: 167px;
+    height: 56px;
+    padding: 15px;
+    border: none;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 17px;
+    border-radius: 17px;
+    margin-left: 950px;
+    padding-bottom: -500px;
+}
+
+.sign-up{
+    margin-top: -35px;
+}
+
+/* Home section */
+
+/* left side ka content */
+
+.smart-banking{
+    width: 400px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 55px;
+    color: #fff;
+    margin-left: 242px;
+    margin-top: 100px;
+}
+
+.down-description{
+    width: 366px;
+    height: 90px;
+    margin-left: 246px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.register-button{
+     margin-top: 20px;
+    margin-left: 240px;
+  }
+
+ 
+
+ /* right side ka content */
+ .home-div{
+     display: flex;
+ }
+
+ .phone{
+     position: relative;
+    z-index: 1000;
+ }
+
+ /* vector 1 */
+.question{
+    position: absolute;
+    left: 80%;
+    right: 8.02%;
+    top: 20%;
+    bottom: 0.63%;
+ }
+
+.question-shadow{
+    position: absolute;
+    left: 83%;
+    right: 8.02%;
+    top: 20%;
+    bottom:.63% ;
+}
+
+/* vector2 */
+
+.question-2{
+    position: absolute;
+    left: 40%;
+    right: 0%;
+    top: 90%;
+    bottom: 1.34%;
+}
+
+.question-2-shadow{
+    z-index: -1;
+    position: absolute;
+    left: 39.7%;
+    right: 26.06%;
+    top: 99%;
+    bottom: 0.31%;
+}
+
+/* vector3 */
+.vector-3{    
+    position: absolute;
+    left: 79.87%;
+    right: 11.41%;
+    top: 100.88%;
+    bottom: 14.07%;
+}
+
+.vector-shadow{
+    position: absolute;
+    left: 80.19%;
+    right: 0.87%;
+    top: 102.57%;
+    bottom: 1.58%;
+}
+
+.inner-shadow{
+    position: absolute;
+    left: 81.69%;
+    right: 28.91%;
+    top: 104.67%;
+    bottom: 30.57%;
+}
+
+
+/* the card payment section */
+.big-heading{
+    position: absolute;
+    width: 366px;
+    height: 120px;
+    left: 246px;
+    top: 1130px;
+    font-family: Roboto;
+     font-weight: bold;
+    font-size: 50px;
+     color: #554DDE;
+    }
+
+.small-text{
+    width: 370px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #6A6D9E;
+    margin-top: 670px;
+    margin-left: 246px;
+}
+
+.left-content{
+    display: flex;
+}
+
+.card{
+    margin-top: 530px;
+    margin-left: 100px;
+  }
+
+
+  /* Managing like a pro section */
+
+  /* left side */
+.flex-divs{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.box{
+    margin-right: 20px;
+    width: 223px;
+    height: 180px;
+    background: #fff;
+    border: 0.5px solid #CAD6F1;
+    box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+    border-radius: 50px;
+    padding: 30px 30px 100px 30px
+}
+
+.heading{
+    width: 72px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.heading-2{
+    width: 149px;
+    height: 30px;
+}
+
+.sub-heading{
+    width: 125px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: #554DDE;
+    margin-top: 10px;
+}
+
+.chart{
+    margin-left: 150px;
+    border-radius: 50px;
+}
+
+.managing{
+    display: flex;
+}
+
+.managing-heading{
+    margin-top: 350px;
+    margin-left: 50px;
+    width: 366px;
+    height: 177px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #554DDE;
+}
+
+.managing-sub-heading{
+    width: 370px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #6A6D9E;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.learn-more-btn{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.feature-section{
+    display: flex;
+}
+
+.dot-ptrn{
+    position: absolute;
+    left: 10px;
+    top: 2291px;
+    margin-left: 150px;
+ }
+
+.feature-heading{
+    width: 366px;
+    height: 177px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #554DDE;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.feature-sub-heading{
+    width: 370px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #6A6D9E;
+    margin-left: 200px ;
+    margin-top: 20px;
+}
+
+.profile-img{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.grouping-profile-text{
+    display: flex;
+}
+
+.twenty-text{
+    width: 34px;
+    height: 30px;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 150%;
+    color: #6A6D9E;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.messages{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+/* service section */
+.service-heading{
+    width: 760px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: #554DDE;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.the-pink-txt{
+    color: #f44e77;
+}
+
+.service-sub-heading{
+    width: 633px;
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #16194F;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+
+.plans{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.plan{
+    width: 430px;
+    height: 1146px;
+    background: #FFFFFF;
+    border: 0.5px solid #CAD6F1;
+    box-sizing: border-box;
+    box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+    border-radius: 50px;
+    margin-right: 60px;
+}
+
+.plan-heading{
+    width: 78px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.plan-1-heading{
+    margin-top: 60px;
+    margin-left: 40%;
+}
+.plan-2-heading{
+    margin-top: 60px;
+    margin-left: 30%;
+}
+
+.dollar{
+    width: 119px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 150%;
+    color: #000000;
+    margin-top: 60px;
+    margin-left: 35%;
+}
+ 
+.plan-description{
+    width: 340px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #6A6D9E;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.get-started-btn{
+    width: 170px;
+    height: 54px;
+    border: 2px solid #16194F;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 120px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.get-started-btn:hover{
+    background: #16194F;
+    color: #fff;
+}
+
+.plan-card{
+    width: 273px;
+    height: 157px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.themes{
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+.features{
+    width: 366px;
+    height: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    color: #16194F;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.feature-2{
+    margin-bottom: 50px;
+}
+
+.tick{
+    position: relative;
+    top: 7px;
+    right: 10px;
+ }
+
+.extra{
+    margin-left: 22px;
+}
+
+.plan1-feature6, .plan1-feature7, .plan1-feature8{
+    color: #B7B7B7;
+}
+
+.lines{
+    position: absolute;
+    margin-top: -1500px;
+    z-index: -2;
+    width: 100vw;
+}
+
+.faq-heading{
+    width: 495px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: #554DDE;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+.faq-sub-heading{
+    width: 600px;
+    height: 108px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #6A6D9E;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.faq-question{
+    width: 948px;
+    height: 96px;
+    background: #FFFFFF;
+    border: 0.5px solid #CAD6F1;
+    box-sizing: border-box;
+    box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+    border-radius: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #16194F;
+    margin-top: 20px;
+    margin-left: 200px;
+    transition: .5s;
+}
+
+.act-question{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 20000px;
+}
+
+.question-1{
+    margin-top: 100px;
+}
+
+.plus{
+    margin-left: 100px;
+    cursor: pointer;
+ }
+
+ .plus1{
+    width: 35px;
+    height: 35px;
+    margin-top: 25px;
+    margin-right: 20px;
+    position: absolute;
+    left: 992px;
+    top: 4816px;
+ }
+
+ .plus2{
+      width: 35px;
+     height: 35px;
+     margin-top: 25px;
+     margin-right: 20px;
+     position: absolute;
+     left: 992px;
+     top: 4930px;
+     transition: .5s;
+ }
+ .plus3{
+   position: absolute;
+   left: 992px;
+    top: 5076px;
+    transition: .5s;
+ }
+
+  
+ .plus4{
+     position: absolute;
+     left: 990px;
+    top: 5190px;
+    transition: .5s;
+  }
+ 
+.plus5{
+    position: absolute;
+    left: 990px;
+   top: 5310px;
+   transition: .5s;
+}
+
+
+.pink{
+    background-color: brown;
+}
+
+.minus1{
+    width: 30px;
+    height: 4px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.trial{
+    height: 156px;
+}
+
+
+.act-question h1{
+    width: 900px;
+    height: 108px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #6A6D9E;
+ }
+
+ /* footer */
+ .footer{
+    width: 100vw;
+    height: 440px;
+    background: #DCE2F0;
+    margin-top: 200px;
+ }
+
+.footer-logo{
+ margin-left: 250px;
+ margin-top: 150px;
+}
+ 
+.copyright, .copyright-2{
+    width: 250px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #6A6D9E;
+    margin-left: 250px;
+}
+ 
+.copyright-2{
+    margin-top: -25px;
+}
+ 
+.copyright-text{
+    margin-top: 20px;
+}
+
+.flex-div-1,
+.flex-div-2,
+.flex-div-3{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #16194F;
+ }
+
+ .flex-div-1{
+    position: absolute;
+    left: 628px;
+    top: 5703px;
+ }
+
+ .flex-div-2{
+    position: absolute;
+    left: 628px;
+    top: 5803px;
+ }
+
+ .flex-div-3{
+    position: absolute;
+    left: 628px;
+    top: 5903px;
+ }
+
+.flex-div-1 p,
+.flex-div-2 p,
+.flex-div-3 p{
+    margin-left: 100px;
+}
+
+.last{
+    width: 500px;
+}
+
